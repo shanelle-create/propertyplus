@@ -186,25 +186,7 @@ fun DetailsScreen(navController: NavController){
                 Spacer(modifier = Modifier.width(30.dp))
 
             }
-
-
-
-
-
-
-
-
-
-
         }
-
-
-
-
-
-
-
-
     }
 }
 

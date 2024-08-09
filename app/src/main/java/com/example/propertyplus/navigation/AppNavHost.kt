@@ -9,6 +9,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.propertyplus.ui.theme.details.DetailsScreen
+import com.example.propertyplus.ui.theme.property.PropertyScreen
 import com.example.propertyplus.ui.theme.screens.about.AboutScreen
 import com.example.propertyplus.ui.theme.screens.home.HomeScreen
 import com.example.propertyplus.ui.theme.splash.SplashScreen
@@ -47,6 +48,10 @@ fun AppNavHost(
 
         composable(ROUT_SPLASH) {
             SplashScreen(navController = navController)
+        }
+
+        composable(ROUT_SPLASH) {
+            PropertyScreen(navController = navController)
         }
 
 
